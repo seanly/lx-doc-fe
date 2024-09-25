@@ -5,7 +5,7 @@ module.exports = {
   lintOnSave: false,
   productionSourceMap: false,
   filenameHashing: false,
-  transpileDependencies: ['yjs', 'lib0'],
+  transpileDependencies: ['yjs', 'lib0', '@svgdotjs/svg.js'],
   devServer: {
     port: '9091',
     proxy: {
